@@ -1,0 +1,22 @@
+.flex {  
+
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    margin:auto;
+
+    .element { 
+        width: 45%;
+
+        * { 
+            // width:100%;
+            margin: 10px 0;
+
+        }
+
+        input.ng-invalid.ng-dirrty {
+            border-width: 1px;; 
+            border-color: red;
+        }
+    }
+}
